@@ -1,2 +1,3 @@
 # SocialCapitalist
-Are-you a social capitalist ?
+
+The code of the following app : http://socialcapitalists.rsn.link/WebApp/
