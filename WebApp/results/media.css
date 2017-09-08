@@ -1,0 +1,671 @@
+@media screen and (max-width: 1280px) {
+
+                #main_results #profile #picture {
+			
+                        max-width: 125px;
+                        max-height: 125px;
+
+		}
+
+		#main_results #profile #picture img {
+
+			max-width: 125px;
+			max-height: 125px;
+
+		}
+
+		
+                #main_results #profile #picture #ddp p {
+
+                                        margin-top: 12%;
+                                        font-size: 1em;
+
+                                }
+                                
+        #charts {
+        
+		height: 100%;
+		overflow: auto;
+	
+	}
+
+		#charts h2 {
+
+			font-size: 1.5em;
+
+		}
+	
+	.pie {
+
+		width: 30%;
+		height: 300px;
+		float: left;
+		position: relative;
+
+	}
+
+		.pie .legend {
+
+			text-align: center;
+			font-size: 0.6em;
+			width: 100%;
+			margin: 0px auto;
+			position: relative;
+			margin-top: -6%;
+
+		}
+
+			#main_results #stats .cadre_stats h2 {
+
+		                text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		                font-size: 0.8em;
+		                letter-spacing: 1.5px;
+
+			}
+
+			#main_results #stats .cadre_stats span {
+
+				font-size: 1.4em;
+	
+			}
+				
+		#main_results #stats .cadre_stats {
+	
+			width: 31%;
+			height: 45%;
+			margin-left: 2%;
+		
+		}
+			
+		#main_results #ksoc span {
+		
+			font-size: 1em;
+			letter-spacing: 1.5px;
+		}
+
+		#activity {
+
+			min-width: 210px; height: 300px; margin: 0 auto;
+
+		}
+
+                #activity1 {
+
+                        min-width: 210px; height: 300px; margin: 0 auto;
+
+                }
+
+                #activity2 {
+
+                        min-width: 210px; height: 300px; margin: 0 auto;
+
+                }
+
+                #polarity{
+                	min-width: 210px; 
+                	height: 300px; 
+                	margin: 0 auto;
+                }
+				
+			#main_results #profile #scores {
+			
+				width: 30%;
+				float: left;
+				position: relative;
+				padding: 1%;
+			
+			}
+
+                                #main_results #profile #scores span {
+
+                                        font-size: 1em;
+
+                                }
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
+
+	
+	#main_results #profile #picture {
+
+		max-width: 175px;
+		max-height: 175px;
+
+	}
+
+             #main_results #profile #picture img {
+
+                        max-width: 175px;
+                        max-height: 175px;
+
+                }
+
+		#main_results #profile #picture #ddp p {
+
+                                        margin-top: 10%;
+                                        font-size: 1.6em;
+
+                                }
+                                
+        #charts {
+        
+		height: 80%;
+	
+	}
+
+	                #charts h2 {
+
+                        font-size: 2em;
+                
+                }
+	
+	.pie {
+
+		width: 30%;
+		float: left;
+		height: 400px;
+		position: relative;
+
+	}
+
+		.pie .legend {
+
+			text-align: center;
+			font-size: 0.8em;
+			width: 100%;
+			margin: 0px auto;
+			position: relative;
+			margin-top: -6%;
+
+		}
+
+			#main_results #stats .cadre_stats h2 {
+
+				font-family: 'Arvo';
+		                font-weight: 700;
+		                color: #ed786a;
+		                text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		                font-size: 1.1em;
+		                text-transform: uppercase;
+		                letter-spacing: 1px;
+
+			}
+
+			#main_results #stats .cadre_stats span {
+
+				font-weight: bold;
+				font-size: 1.4em;
+				text-align: center;
+	
+			}
+				
+		#main_results #stats .cadre_stats {
+	
+			width: 25%;
+			height: 45%;
+			margin-left: 2%;
+			padding: 1%;
+			
+		}
+			
+		#main_results #ksoc span {
+	
+			font-family: 'Arvo';
+			font-weight: 400;
+			color: white;
+			font-size: 1.2em;
+			letter-spacing: 1.5px;
+			text-align: justify;
+			width: 100%;
+		}
+			
+		#main_results #ksoc span#username_resume {
+	
+			font-size: 1em;
+		}
+
+                #activity {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity1 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity2 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+				
+			#main_results #profile #scores {
+			
+				width: 26%;
+				float: left;
+				position: relative;
+				padding: 1%;
+			
+			}
+
+				#main_results #profile #scores span {
+
+					
+                                        font-size: 1.5em;
+
+				}
+}
+
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+
+	
+	#main_results #profile #picture {
+
+		max-width: 190px;
+		max-height: 190px;
+
+	}
+
+             #main_results #profile #picture img {
+
+                        max-width: 190px;
+                        max-height: 190px;
+
+                }
+
+		#main_results #profile #picture #ddp p {
+
+                                        margin-top: 10%;
+                                        font-size: 1.6em;
+
+                                }
+                                
+        #charts {
+        
+		height: 80%;
+	
+	}
+
+	                #charts h2 {
+
+                        font-size: 2em;
+                
+                }
+	
+	.pie {
+
+		width: 30%;
+		float: left;
+		height: 400px;
+		position: relative;
+
+	}
+
+		.pie .legend {
+
+			text-align: center;
+			font-size: 0.8em;
+			width: 100%;
+			margin: 0px auto;
+			position: relative;
+			margin-top: -6%;
+
+		}
+
+			#main_results #stats .cadre_stats h2 {
+
+				font-family: 'Arvo';
+		                font-weight: 700;
+		                color: #ed786a;
+		                text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		                font-size: 1.1em;
+		                text-transform: uppercase;
+		                letter-spacing: 1px;
+
+			}
+
+			#main_results #stats .cadre_stats span {
+
+				font-weight: bold;
+				font-size: 1.4em;
+				text-align: center;
+	
+			}
+				
+		#main_results #stats .cadre_stats {
+	
+			width: 25%;
+			height: 45%;
+			margin-left: 2%;
+			padding: 1%;
+		
+		}
+			
+		#main_results #ksoc span {
+	
+			font-family: 'Arvo';
+			font-weight: 400;
+			color: white;
+			font-size: 1.2em;
+			letter-spacing: 1.5px;
+			text-align: justify;
+			width: 100%;
+		}
+			
+		#main_results #ksoc span#username_resume {
+	
+			font-size: 1em;
+		}
+
+                #activity {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity1 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity2 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+				
+			#main_results #profile #scores {
+			
+				width: 26%;
+				float: left;
+				position: relative;
+				padding: 1%;
+			
+			}
+
+				#main_results #profile #scores span {
+
+					
+                                        font-size: 1.5em;
+
+				}
+}
+
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+
+	
+	#main_results #profile #picture {
+
+		max-width: 190px;
+		max-height: 190px;
+
+	}
+
+             #main_results #profile #picture img {
+
+                        max-width: 190px;
+                        max-height: 190px;
+
+                }
+
+		#main_results #profile #picture #ddp p {
+
+                                        margin-top: 10%;
+                                        font-size: 1.6em;
+
+                                }
+                                
+        #charts {
+        
+		height: 80%;
+	
+	}
+
+	                #charts h2 {
+
+                        font-size: 2em;
+                
+                }
+	
+	.pie {
+
+		width: 30%;
+		float: left;
+		height: 400px;
+		position: relative;
+
+	}
+
+		.pie .legend {
+
+			text-align: center;
+			font-size: 0.8em;
+			width: 100%;
+			margin: 0px auto;
+			position: relative;
+			margin-top: -6%;
+
+		}
+
+			#main_results #stats .cadre_stats h2 {
+
+				font-family: 'Arvo';
+		                font-weight: 700;
+		                color: #ed786a;
+		                text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		                font-size: 1em;
+		                text-transform: uppercase;
+		                letter-spacing: 1px;
+
+			}
+
+			#main_results #stats .cadre_stats span {
+
+				font-weight: bold;
+				font-size: 1.2em;
+				text-align: center;
+	
+			}
+				
+		#main_results #stats .cadre_stats {
+	
+			width: 25%;
+			height: 45%;
+			margin-left: 2%;
+			padding: 1%;
+		
+		}
+			
+		#main_results #ksoc span {
+	
+			font-family: 'Arvo';
+			font-weight: 400;
+			color: white;
+			font-size: 1.2em;
+			letter-spacing: 1.5px;
+			text-align: justify;
+			width: 100%;
+		}
+			
+		#main_results #ksoc span#username_resume {
+	
+			font-size: 1em;
+		}
+
+                #activity {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity1 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity2 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+				
+			#main_results #profile #scores {
+			
+				width: 26%;
+				float: left;
+				position: relative;
+				padding: 1%;
+			
+			}
+
+				#main_results #profile #scores span {
+
+					
+                                        font-size: 1.5em;
+
+				}
+}
+
+
+@media screen and (min-width: 1801px) {
+
+	
+	#main_results #profile #picture {
+
+		max-width: 225px;
+		max-height: 225px;
+
+	}
+
+             #main_results #profile #picture img {
+
+                        max-width: 225px;
+                        max-height: 225px;
+
+                }
+
+		#main_results #profile #picture #ddp p {
+
+                                        margin-top: 14%;
+                                        font-size: 1.6em;
+
+                                }
+                                
+        #charts {
+        
+		height: 80%;
+	
+	}
+
+	                #charts h2 {
+
+                        font-size: 2em;
+                
+                }
+	
+	.pie {
+
+		width: 30%;
+		float: left;
+		height: 400px;
+		position: relative;
+
+	}
+
+		.pie .legend {
+
+			text-align: center;
+			font-size: 0.8em;
+			width: 100%;
+			margin: 0px auto;
+			position: relative;
+			margin-top: -6%;
+
+		}
+
+			#main_results #stats .cadre_stats h2 {
+
+				font-family: 'Arvo';
+		                font-weight: 700;
+		                color: #ed786a;
+		                text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		                font-size: 1.2em;
+		                text-transform: uppercase;
+		                letter-spacing: 2px;
+
+			}
+
+			#main_results #stats .cadre_stats span {
+
+				font-weight: bold;
+				font-size: 1.4em;
+				text-align: center;
+	
+			}
+				
+		#main_results #stats .cadre_stats {
+	
+			width: 25%;
+			height: 45%;
+			margin-left: 2%;
+		
+		}
+			
+		#main_results #ksoc span {
+	
+			font-family: 'Arvo';
+			font-weight: 400;
+			color: white;
+			font-size: 1.2em;
+			letter-spacing: 1.5px;
+			text-align: justify;
+			width: 100%;
+		}
+			
+		#main_results #ksoc span#username_resume {
+	
+			font-size: 1em;
+		}
+
+                #activity {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity1 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+
+                #activity2 {
+
+                        min-width: 310px; height: 400px; margin: 0 auto;
+
+                }
+				
+			#main_results #profile #scores {
+			
+				width: 26%;
+				float: left;
+				position: relative;
+				padding: 1%;
+			
+			}
+
+				#main_results #profile #scores span {
+
+					
+                                        font-size: 1.5em;
+
+				}
+}

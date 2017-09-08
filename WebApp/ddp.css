@@ -1,0 +1,536 @@
+    html {
+      height: 100%;
+    }
+    body {
+      padding: 0;
+      font-family: 'open sans';
+      position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    #socialcapitalism {
+    
+        width: 45%;
+        padding: 1%;
+        float: left;
+        margin-top: 3%;
+        height: 39%;
+	margin-left: 5%;
+    
+    }
+
+    a {
+    
+    	text-decoration: none;
+    	font-weight: bold;
+    	color: black;
+    	
+    }
+    
+	h1.home {
+
+	font-family: 'Arvo';
+                        font-weight: 700;
+                        color: #ed786a;
+                        text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+                        text-transform: uppercase;
+                        letter-spacing: 3.5px;
+                        text-align: center;
+                        
+	}	
+    
+        #socialcapitalism h2 {
+            
+            color: rgba(0,0,0,0.85);
+            text-align: justify;
+            width: 100%;
+            clear: both;
+            text-align: center;
+            margin-left: 1%;            
+        
+        }
+        
+            #socialcapitalism h2 span {
+            
+                display: inline-block;
+                border: 4px solid rgb(0, 0, 0);
+                background: rgba(50, 50, 50, 0.75);
+                border-radius: 5px;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                padding: 0.7em;
+                text-decoration: none;
+                line-height: 90%;
+                width: 80%;
+    
+                font-family: open sans;
+                font-weight: bold;
+                
+                color: white;
+            
+            }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.2em;
+        
+        }
+    
+    #image_socialcapitalism {
+    
+        width: 40%;
+        padding: 1%;
+        float: right;
+        margin-top: 3%;
+        height: 39%;
+	margin-left: 1%.
+            
+    }
+    
+        #image_socialcapitalism p {
+        
+        	display: inline-block;
+        	vertical-align: middle;
+        	width: 100%;
+	        margin: 0px auto;
+        
+        }
+    
+    #influence {
+    
+        width: 40%;
+        padding: 1%;
+        float: right;
+        margin-top: 2%;
+    
+    }
+    
+        #influence h2 {
+            
+            color: rgba(255,0,0,0.85);
+            text-align: justify;
+            width: 100%;
+            clear: both;
+            text-align: center;
+            margin-left: 1%; 
+        
+        }
+        
+            #influence h2 span {
+            
+                display: inline-block;
+                border: 4px solid rgb(0, 0, 0);
+                background: rgba(229, 217, 198, 0.75);
+                border-radius: 5px;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                padding: 0.7em;
+                text-decoration: none;
+                line-height: 90%;
+                width: 80%;
+    
+                font-family: open sans;
+                font-weight: bold;
+                
+                color: white;
+            
+            }
+        
+    #image_influence {
+    
+        width: 50%;
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 5%;
+        height: 100%;
+    
+    }
+    
+            #image_influence .cadre .score {
+            
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                font-size: 1.2em;
+            
+            }
+
+		#image_influence .cadre .score img {
+
+		width: 100%;
+		max-width: 30px;
+		height: auto;
+                margin: 4%;
+                display: inline-block;
+                vertical-align: middle;
+
+		}
+        
+        #ksoc {
+            
+            position: absolute;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+            
+            color: white;
+        }
+    
+    #dataset {
+    
+        width: 40%;
+        padding: 1%;
+        float: right;
+        height: 35%;
+	margin-top: 3%;
+ 
+    }
+    
+    	#dataset #features {
+    	
+    		text-align: center;
+    		
+    	}
+    
+    #image_dataset {
+    
+        width: 45%;
+        padding: 1%;
+        float: left;
+        height: 35%;
+    	margin-left: 5%;
+       	 
+    }
+    
+    #classifier {
+    
+        width: 45%;
+        padding: 1%;
+        float: left;
+        margin-top: 3%;
+        height: 35%;
+   	margin-left: 5%;
+ 
+    }
+    
+    #image_classifier {
+    
+        width: 40%;
+        padding: 1%;
+        float: right;
+        margin-top: 3%;
+        height: 35%;
+        text-align: center;
+            
+    }
+    
+    #about {
+    
+    	width: 60%;
+    	padding: 2%;
+    	float: left;
+    	position: relative;
+    
+    }
+    
+    	#about #theproject, #references {
+    	
+    		width: 95%;
+    		padding: 2%;
+    		
+    	}
+    	
+    #theteam {
+    
+    	float: right;
+    	background: rgba(0,0,0,0.4);
+    	width: 32%;
+    	height: 100%;
+    	margin-top: 3.5%;
+    	border-top-left-radius: 5px;
+    
+    }
+    
+    	#theteam .cadre {
+    		height: 33%;
+    	
+    	}
+    	
+	#theteam .sep {
+	
+		border-bottom: 2px solid #FFF;
+		
+	}
+	
+	    #giveitatry p#connected {
+	    
+	    	text-align: center;
+	    
+	    }
+        
+    .wrapper {
+    	height: 100% !important;
+    	height: 100%;
+    	margin: 0 auto; 
+    	overflow: hidden;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    
+    h1, h2 {
+      width: 100%;
+      float: left;
+    }
+    h1 {
+      letter-spacing: -4px;
+      }
+    
+    .pointer {
+      color: #9b59b6;
+      font-family: 'Pacifico', cursive;
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    code {
+      float: left;
+      width: 100%;
+      background: rgba(0,0,0,0.1);
+      border: rgba(0,0,0,0.05) 5px solid;
+      border-radius: 5px;
+      color: white;
+      display: block;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+    code.js {
+      color: #7EC9E6;
+    }
+    code.html {
+      color: #FFAD00;
+    }
+
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    /* Seul truc utile : margin: 0 */
+    .main h1 {
+
+	margin: 0;
+	font-weight: 110;
+	letter-spacing: 0.2px;
+
+	}
+
+	.reload.bell {
+      font-size: 12px;
+      padding: 20px;
+      width: 45px;
+      text-align: center;
+      height: 47px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+    }
+    
+    .reload.bell #notification {
+      font-size: 25px;
+      line-height: 140%;
+    }
+    
+    .reload, .btn{
+      display: inline-block;
+      border: 4px solid #A2261E;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background: #CC3126;
+      display: inline-block;
+      line-height: 100%;
+      padding: 0.7em;
+      text-decoration: none;
+      color: #fff;
+      width: 100px;
+      line-height: 140%;
+      font-size: 17px;
+      font-family: open sans;
+      font-weight: bold;
+    }
+    .reload:hover{
+      background: #444;
+    }
+    .btn {
+      width: 200px;
+      color: rgb(255, 255, 255);
+      border: 4px solid rgb(0, 0, 0);
+      background: rgba(3, 3, 3, 0.75);
+    }
+    .clear {
+      width: auto;
+    }
+    .btn:hover, .btn:hover {
+      background: #444;
+    }
+    .btns {
+      width: 410px;
+      margin: 50px auto;
+    }
+    .credit {
+      text-align: center;
+      color: rgba(0,0,0,0.5);
+      padding: 10px;
+      width: 410px;
+      clear: both;
+    }
+    .credit a {
+      color: rgba(0,0,0,0.85);
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .back {
+      position: absolute;
+	z-index: 5;
+      top: -2%;
+      left: 0;
+      text-align: right;
+      width: 100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.25);
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #000;
+      -webkit-transition: all 500ms ease-in-out;
+      -moz-transition: all 500ms ease-in-out;
+      -o-transition: all 500ms ease-in-out;
+      transition: all 500ms ease-in-out;
+      font-variant: small-caps;
+    }
+    
+	.onepage-pagination ul {
+                float: left;
+		list-style-type: none;
+		top: 0;
+        }
+        .onepage-pagination li {
+                float: right;
+		list-style-type: none;
+		padding: 0.2%;
+        }
+    
+    header {
+      position: relative;
+      z-index: 10;
+    }
+    .main section  {
+      overflow: hidden;
+    }
+    
+    .main section > img {
+      position: absolute;
+      max-width: 100%;
+      z-index: 1;
+    }
+    
+    .main section.page1 {
+      background:rgb(245, 245, 220);
+    }
+    .main section.page2 {
+      background: #555557; /*url(back-phone.png) no-repeat center -150px ;*/
+    }
+	.main section.page2 h1 {
+		color: white;
+	}
+    .main section.page3 {
+      /*background:url(tilted-phone.png) no-repeat 156px -150px ;*/
+    }
+    .main section .page_container {
+      position: relative;
+      top: 25%;
+      margin: 0 auto;
+      margin-top: -80px;
+      max-width: 950px;
+      z-index: 3;
+    }
+    .main section.page3 .page_container {
+      overflow: hidden;
+      width: 500px;
+      right: -285px;
+    }
+    .main section.page3 h1 {
+      text-align: left;
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 70px;
+      letter-spacing: -1px;
+      color: black;
+    }
+    
+    body.disabled-onepage-scroll .onepage-wrapper  section {
+      min-height: 100%;
+      height: auto;
+    }
+    
+    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+      padding: 20px;
+      margin-top: 150px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body.disabled-onepage-scroll  section .page_container h1{
+      text-align: center;
+      font-size: 50px;
+    }
+    body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+      text-align: center;
+      width: 100%;
+    }
+    
+    body.disabled-onepage-scroll .main section.page1 > img {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+    }
+    
+    body.disabled-onepage-scroll .main section > img {
+      position: relative;
+      max-width: 80%;
+      bottom: 0;
+    }
+    body.disabled-onepage-scroll code {
+      width: 95%;
+      margin: 0 auto 25px;
+      float: none;
+      overflow: hidden;
+    }
+    
+    body.disabled-onepage-scroll .main section.page3 .page_container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+    }
+    

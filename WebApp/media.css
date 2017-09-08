@@ -1,0 +1,992 @@
+@media screen and (max-width: 1100px) {
+
+ #giveitatry p {
+
+                font-size: 1em;
+
+            }
+
+	#image_dataset {
+
+		margin-top: 8%;
+
+	}
+	
+	#dataset {
+		margin-left: 2%;
+	}
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+
+        }	
+	
+        #influence p {
+
+            width: 100%;
+            font-size: 1em;
+
+        }
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 300px;
+
+            }
+
+	h1.home {
+        
+            margin-bottom: 4px;
+            font-size: 1.4em;
+        
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1em;
+        
+        }
+        
+    		#about #theproject p, #references {
+    		
+    			font-size: 0.9em;
+    			text-align: justify;
+    			padding: 2%;
+			margin-left: 4%;
+    			
+    		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 1.4em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 0.7em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: .5%;
+		
+		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 125px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+        .viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1em;
+            
+       }
+
+	#ksoc {
+
+            position: absolute;
+            bottom: 4%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 350%;
+		
+		}
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 0.9em;
+      margin-top: 15px;
+    }
+		
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+
+            #giveitatry p {
+
+                font-size: 1em;
+
+            }
+
+	#image_dataset {
+
+		margin-top: 8%;
+
+	}
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+
+        }	
+
+	
+        #influence p {
+
+            width: 100%;
+            font-size: 1em;
+
+        }
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 300px;
+
+            }
+
+	h1.home {
+        
+            margin-bottom: 4px;
+            font-size: 1.4em;
+        
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1em;
+        
+        }
+        
+    		#about #theproject p, #references {
+    		
+    			font-size: 1em;
+    			text-align: justify;
+    			padding: 2%;
+			margin-left: 4%;
+    			
+    		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 2em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 0.8em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: .5%;
+		
+		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 125px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+        .viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1em;
+            
+       }
+
+	#ksoc {
+
+            position: absolute;
+            bottom: 4%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 350%;
+		
+		}
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 1em;
+      margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
+
+	            #giveitatry p {
+
+                font-size: 1.1em;
+
+            }	
+
+        #influence p {
+
+            width: 100%;
+            font-size: 1.1em;
+
+        }
+	
+        #image_dataset {
+
+                margin-top: 8%;
+
+        }
+
+
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+            max-width: 150px;
+
+        }	
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 150px;
+
+            }
+
+	h1.home {
+        
+            margin-bottom: 4px;
+            font-size: 1.5em;
+        
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.1em;
+        
+        }
+        
+    		#about #theproject p, #references {
+    		
+    			font-size: 1em;
+    			text-align: justify;
+    			padding: 2%;
+    			margin-left: 2%;
+	
+    		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 2em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 0.8em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: .5%;
+		
+		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 125px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+        .viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1.2em;
+            
+       }
+		
+		#ksoc {
+
+            position: absolute;
+            bottom: 4%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }
+	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 850%;
+		
+		}
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 1.2em;
+      margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+
+	            #giveitatry p {
+
+                font-size: 1.2em;
+
+            }	
+
+        #influence p {
+
+            width: 100%;
+            font-size: 1.2em;
+
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.2em;
+        
+        }
+	
+        #image_dataset {
+
+                margin-top: 6%;
+
+        }
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+            max-width: 150px;
+
+        }	
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 150px;
+
+            }
+
+	h1.home {
+        
+            margin-bottom: 4px;
+            font-size: 1.5em;
+        
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.2em;
+        
+        }
+        
+    		#about #theproject p, #references {
+    		
+    			font-size: 1.1em;
+    			text-align: justify;
+    			padding: 2%;
+    			margin-left: 2%;
+	
+    		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 2em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 0.9em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: .5%;
+		
+		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 125px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+        .viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 600px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1.2em;
+            
+       }
+		
+		#ksoc {
+
+            position: absolute;
+            bottom: 8%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }
+	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 850%;
+		
+		}
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 1.2em;
+      margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+
+            #giveitatry p {
+
+                font-size: 1.2em;
+
+            }	
+
+        #influence p {
+
+            width: 100%;
+            font-size: 1.2em;
+
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.2em;
+        
+        }
+	
+        #image_dataset {
+
+                margin-top: 6%;
+
+        }
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+            max-width: 150px;
+
+        }	
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 150px;
+
+            }
+
+	h1.home {
+        
+            margin-bottom: 4px;
+            font-size: 1.5em;
+        
+        }
+        
+        #socialcapitalism p {
+        
+            width: 100%;
+            font-size: 1.2em;
+        
+        }
+        
+    		#about #theproject p, #references {
+    		
+    			font-size: 1.2em;
+    			text-align: justify;
+    			padding: 2%;
+    			margin-left: 2%;
+	
+    		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 2em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 1em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: .5%;
+		
+		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 125px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+        .viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 600px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 500px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1.2em;
+            
+       }
+		
+		#ksoc {
+
+            position: absolute;
+            bottom: 8%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }
+	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 850%;
+		
+		}
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 1.2em;
+      margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1801px) {
+
+	    #giveitatry p {
+
+                font-size: 1.2em;
+
+            }	
+
+        #influence p {
+
+            width: 100%;
+            font-size: 1.2em;
+
+        }
+	
+        #image_dataset {
+
+                margin-top: 8%;
+
+        }
+
+	h1.home {
+        
+            margin-bottom: 10px;
+            font-size: 2.8em;
+        
+        }
+    	
+    		#about #theproject p, #references {
+    		
+    			font-size: 1.2em;
+    			text-align: justify;
+    			padding: 2%;
+    			
+    		}
+	
+		#theteam .cadre p {
+		
+			text-align: justify;
+			font-size: 1em;
+	    		color: white;
+	    		width: 95%;
+	    		padding: 2%;
+		
+		}
+    	
+    		#about #theproject h1, #references h1 {
+    		
+    			font-size: 2.4em;
+    			text-align: justify;
+    			padding: .5%;
+    			
+    		}
+    	
+    		#theteam .cadre img {
+    		
+    			width: 100%;
+    			max-width: 175px;
+    			float: left;
+    			padding: 2%;
+    			
+    		}
+    		
+        .onepage-pagination li a {
+                display: block;
+                font-size: 1.25em;
+                color: black;
+	      -webkit-transition: all 1000ms ease-in-out;
+	      -moz-transition: all 1000ms ease-in-out;
+	      -o-transition: all 1000ms ease-in-out;
+	      transition: all 1000ms ease-in-out;
+        }
+        
+    	.viewing-page-2 .onepage-pagination li a {
+                display: block;
+                font-size: 1.25em;
+                color: white;
+      }
+    
+	    #image_dataset img {
+	    
+		width: 100%;
+		max-width: 700px;
+		    
+	    }
+    
+	    #image_classifier img {
+	    
+		width: 100%;
+		max-width: 700px;
+		    
+	    }
+	    
+	#ksoc {
+	
+            font-size: 1.6em;
+            
+       }
+	    
+	
+
+            #image_influence .cadre img {
+
+                width: 100%;
+                max-width: 300px;
+
+            }		
+
+	
+
+        #image_influence .cadre {
+
+            width: 20%;
+            float: left;
+            height: 100%;
+            padding: 1.5%;
+
+        }
+        
+        #ksoc {
+
+            position: absolute;
+            bottom: 4%;
+            background: rgba(237, 120, 106, .8);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            padding: 0.7em;
+            text-decoration: none;
+            line-height: 90%;
+            width: 100%;
+
+            font-family: open sans;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: white;
+        }
+	    
+		#image_socialcapitalism p#connected {
+		
+			line-height: 550%;
+		
+		}
+
+	
+
+        #influence p {
+
+            width: 100%;
+            font-size: 1.2em;
+
+        }
+        
+        
+    code {
+      margin: 20px 1%;
+      padding:5px;
+      font-size: 1.2em;
+      margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,25 @@
+pos contains the positive examples
+neg contains the negative examples
+
+1 : id                           long
+2 : statuses_count               long
+3 : listed_count                 long
+4 : favorites_count             long
+5 : out                              long
+6 : in                                long
+7 : bi                         long
+8 : taille moyenne des tweets     float
+9 : nombre de hashtags moyen par tweet   float
+10 : nombre d'url moyen  par tweet float
+11 : nombre de mention moyen par tweet   float
+12 : nom bre de retweet moyen par tweet   float		
+13 : pourcentage de retweet -> Parmi les tweets de ce users, combien sont des tweets d'autres users qui sont retweetés ?  	FAIL POUR L'APPLI
+14 : nombre de retweet moyen des tweets retweetés float		
+15 : nombre moyen de seconde entre deux tweets     int
+Ici, A chaque fois on a la proportion de tweets twittés via la source n.
+16 : Source 0 -> L'appli web officielle Twitter
+17 : Source 1 -> Outils de management de comptes
+18 : Source 2 -> Outils de follow/unfollow automatiques
+19 : Source 3 -> Outils de tweets automatiques
+20 : Source 4 -> Appli tierces (Vine, Wiki, Soundcloud, ...)
+21 : Source 5 -> Appli Twitter pour device

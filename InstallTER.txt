@@ -1,0 +1,48 @@
+﻿Intallation : 
+Les fichiers/dossiers à copier dans le repertoire web : 
+-datafinal
+-logregtest6.py
+-logregtest7.py
+-WebApp
+
+
+Modifier php.ini ( /etc/php5/php.ini ) :
+        Changer short_open_tag = Off en short_open_tag = On
+
+
+Intaller MongoDb : 
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+
+
+echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+
+
+ATTENTION : MongoDb n’est dispo que pour les LTS de ubuntu, donc en cas d’autre version, remplacer “$(lsb_release -sc)” ( guillemets compris ) par la LTS la plus proche ( exemple : Sur ubuntu 14.10, remplacer par trusty
+
+
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+Installer php5-mongo et php5-curl : 
+sudo apt-get install php5-mongo php5-curl
+
+
+Modifier le fichier WebApp/config.php en remplaçant :
+http://localhost/ter/DDPapp/ par l’adresse du serveur/chemin vers le dossier WebApp
+
+Redemarrer apache2 : 
+sudo service apache2 restart
+
+
+Installer python-numpy :
+sudo apt-get install python-numpy
+
+
+Installer python-sklearn :
+sudo apt-get install python-sklearn
+
+
+Installer python-pymongo :
+sudo apt-get install python-pymongo
+
+
+Acceder à la page AdresseDuServeur/WebApp/admin.php et cliquer sur Start Classifier

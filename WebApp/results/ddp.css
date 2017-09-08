@@ -1,0 +1,314 @@
+html {
+
+	width: 100%;
+	height: 100%;
+	
+}
+
+body {
+
+	background: #F5F5DC;
+
+}
+
+#error {
+
+	width: 40%;
+	margin: 0px auto;
+	vertical-align: middle;
+	background: #FFF;
+	color: #000;
+	visibility: hidden;
+	z-index: 9999;
+
+	font-size: 2em;
+	font-weight: bold;
+
+	margin-top: 10%;
+	border-radius: 5px;
+	border: #333 solid;
+
+} 
+
+#showjson {
+
+	width: 40%;
+	margin: 0px auto;
+	vertical-align: middle;
+	background: #FFF;
+	color: #000;
+	visibility: hidden;
+	z-index: 9999;
+
+	font-size: 0.8em;
+	font-weight: bold;
+
+	margin-top: 2%;
+	border-radius: 2px;
+	border: #333 solid;
+
+} 
+
+#main_results {
+
+	position: fixed;
+	background: #000;
+	width: 100%;
+	height: 30%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 9999;
+
+}
+
+#main_results h1 {
+
+	font-family: 'Arvo';
+	font-weight: 700;
+	color: #ed786a;
+	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+
+}
+
+#main_results #profile {
+	
+	float: left;
+	width: 20%;
+	height: 100%;
+	padding: 1%;
+	
+}
+
+#main_results #profile #picture {
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 5px solid #FFF;
+	float: left;
+
+}
+
+#main_results #profile #picture img {
+
+	width: 100%;
+	height: 100%;
+
+}
+
+#main_results #profile #picture #ddp {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 20%;
+	width: 20%;
+	background: rgba(255, 0, 0, 0.6);
+	z-index: 10;
+	border-radius: 30px;
+
+}
+
+#main_results #profile #picture #ddp p {
+
+	text-align: center;
+	color: white;
+	font-weight: bold;
+
+}
+
+#main_results #profile #scores {
+
+	float: left;
+	position: relative;
+
+}
+
+#main_results #profile #scores img {
+
+	width: 100%;
+	max-width: 30px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#main_results #profile #scores span {
+
+	color: white;
+	font-weight: bold;
+
+}
+
+#main_results #ksoc {
+	
+	width: 40%;
+	height: 100%;
+	float: left;
+
+}
+
+#main_results #ksoc span {
+	
+	font-family: 'Arvo';
+	font-weight: 400;
+	color: white;
+	text-align: justify;
+	width: 100%;
+}
+
+#main_results #stats {
+	
+	width: 35%;
+	height: 100%;
+	float: left;
+	color: white;
+
+}
+
+#main_results #stats .cadre_stats {
+	
+	position: relative;
+	float: left;
+	color: white;
+
+}
+
+#main_results #stats .cadre_stats h2 {
+
+	font-family: 'Arvo';
+	font-weight: 700;
+	color: #ed786a;
+	text-transform: uppercase;
+
+}
+
+#main_results #stats .cadre_stats span {
+
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#charts {
+
+	background: #F5F5DC;
+	width: 98%;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	overflow: none;
+	margin-left: 2%;
+	
+}
+
+#charts h2 {
+	
+	font-family: 'Arvo';
+	font-weight: 700;
+	color: #ed786a;
+	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	margin-left: 1%;
+
+}
+
+.left {
+
+	float: left;
+
+}
+
+#popular {
+
+	width: 80%;
+	margin: 0px auto;
+	
+}
+
+#popular .tweet {
+
+	width: 26%;
+	padding: 1%;
+	margin: 1%;
+	float: left;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	border: #000 1px solid;
+	color: white;
+
+}
+
+#popular .tweet img {
+	
+	float: left;
+	width: 100%;
+	max-width: 50px;
+	padding: 0.5%;
+
+}
+#analysis{
+	width: 98%;
+	margin: 0px auto;
+}
+#uniques{
+	width: 90%;
+	margin: 0px auto;
+}
+
+
+#mentionZone{
+	display: inline-block;
+	text-align: center;
+	margin-right: 40px;
+}
+
+#hashtagZone{
+	text-align: center;
+	display: inline-block;
+	margin-right: 40px;
+}
+#urlZone{
+	text-align: center;
+	/*display: inline-block;*/
+	width:70%;
+	vertical-align: top;
+}
+
+#table_miscellaneous{
+  float: left;
+  width: 30%;
+}
+
+#table_miscellaneous table{
+  margin: 0 auto;
+  width: 80%;
+  /*border : 1px solid black;*/
+  border-collapse: collapse;
+  
+  color: #333; /* Lighten up font color */
+  font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  
+  -moz-box-shadow: 3px 3px 5px 0px #656565;
+  -webkit-box-shadow: 3px 3px 5px 0px #656565;
+  -o-box-shadow: 3px 3px 5px 0px #656565;
+  box-shadow: 3px 3px 5px 0px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5);
+}
+#table_miscellaneous td{
+  border: 1px solid #CCC; 
+  background-color: #f8f8e7;
+  text-align: center; 
+  height: 30px;
+}
+#table_miscellaneous tr{
+  
+}
